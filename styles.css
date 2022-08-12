@@ -9,6 +9,9 @@ body {
   margin:  5%;
   color: #FEF2BF;
 }
+.input{
+  visibility: hidden;
+}
 
 .container {
   display: block;
@@ -40,6 +43,10 @@ body {
   
     justify-content: center;
 
+  }
+  .input{
+    visibility: visible;
+    background-color: #3FA796;
   }
 }
 .game-over {
